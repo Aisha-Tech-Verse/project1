@@ -1,0 +1,48 @@
+.text-primary{color: purple
+  ;}
+
+.reveal {
+    opacity: 0;
+  }
+  
+  .reveal.active {
+    opacity: 1;
+  }
+  .active.fade-in {
+    animation: fade-in 0.5s;
+  }
+  @keyframes fade-in {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+.hero{
+    background-image: url("https://img.freepik.com/free-photo/human-silhouettes-outside-dark_52683-104216.jpg");
+    background-size: cover;
+}
+
+.section-title{
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    font-size: 2em;
+  }
+
+  .bgFor{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../imgs/poster_2024-07-30-070653.png);
+    background-size: cover;
+}
+nav .active{
+  color: gold;
+}
+footer{
+  background-color: beige;
+}
